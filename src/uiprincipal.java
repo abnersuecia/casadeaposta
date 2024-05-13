@@ -17,18 +17,16 @@ public class uiprincipal extends JFrame{
     public static void main(String[] args) {
         uiprincipal u = new uiprincipal();
 
-
     }
 
     public uiprincipal() {
-        setSize(400,400);
+        setSize(400,300);
         setContentPane(painelLogin);
         setVisible(true);
 
         criarContaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
 
             }
         });
@@ -43,14 +41,14 @@ public class uiprincipal extends JFrame{
     }}
 
 
-public static int login(){
 
 
 
 
 
 
-}
+
+
 
 
 
