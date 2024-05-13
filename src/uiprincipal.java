@@ -10,6 +10,8 @@ public class uiprincipal {
     private JButton cancelarButton;
 
 
+
+
     public uiprincipal() {
         criarContaButton.addActionListener(new ActionListener() {
             @Override
@@ -17,7 +19,13 @@ public class uiprincipal {
 
             }
         });
+
         cancelarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(cancelarButton);
+                frame.dispose(); // fecha a janela
+            }
         });
     }}
 
