@@ -95,6 +95,7 @@
         </constraints>
         <properties>
           <text value="Login"/>
+          <toolTipText value="ffffff"/>
         </properties>
       </component>
       <vspacer id="49f3d">

@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.event.*;
+import java.security.PublicKey;
 
 public class uiprincipal extends JFrame{
     private JLabel login;
@@ -10,9 +11,13 @@ public class uiprincipal extends JFrame{
     private JButton cancelarButton;
     private JPanel painelLogin;
 
-
+//   CÓDIGO MAIN AQ EMBAIXO
+//   CÓDIGO MAIN AQ EMBAIXO
+//   CÓDIGO MAIN AQ EMBAIXO
     public static void main(String[] args) {
         uiprincipal u = new uiprincipal();
+
+
     }
 
     public uiprincipal() {
@@ -23,6 +28,7 @@ public class uiprincipal extends JFrame{
         criarContaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
 
             }
         });
@@ -35,4 +41,18 @@ public class uiprincipal extends JFrame{
             }
         });
     }}
+
+
+public static int login(){
+
+
+
+
+
+
+}
+
+
+
+
 
