@@ -17,7 +17,7 @@ public class cadastro1 extends JFrame {
     }
 
     public cadastro1() {
-        setSize(100,100);
+        setSize(400,400);
         setContentPane(Cadastro);
         setVisible(true);
         cancelarButton.addActionListener(new ActionListener() {

@@ -26,6 +26,9 @@ public class uiprincipal extends JFrame{
         criarContaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(criarContaButton);
+                frame.dispose(); // fecha a janela
+                cadastro1 c = new cadastro1();
 
             }
         });
@@ -37,12 +40,7 @@ public class uiprincipal extends JFrame{
                 frame.dispose(); // fecha a janela
             }
         });
-        criarContaButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
 
-            }
-        });
     }
 
     public static class cadastro {
