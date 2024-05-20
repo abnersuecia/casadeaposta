@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.event.*;
-import java.security.PublicKey;
 
 public class uiprincipal extends JFrame{
     private JLabel login;
@@ -38,7 +37,20 @@ public class uiprincipal extends JFrame{
                 frame.dispose(); // fecha a janela
             }
         });
-    }}
+        criarContaButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+    }
+
+    public static class cadastro {
+        private JTextField nTextField;
+        private JTextField textField1;
+        private JButton FECHARButton;
+    }
+}
 
 
 
