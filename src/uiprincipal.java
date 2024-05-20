@@ -49,6 +49,8 @@ public class uiprincipal extends JFrame{
         private JTextField nTextField;
         private JTextField textField1;
         private JButton FECHARButton;
+
+        pri
     }
 }
 
