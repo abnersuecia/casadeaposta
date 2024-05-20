@@ -11,6 +11,9 @@ public class MegaSena {
 
     public MegaSena() {
         gerar = new JButton("Gerar Números");
+        gerar.setSize(400,30);
+        gerar.setFont(new Font("Arial Rounded MT", Font.BOLD, 30));
+        gerar.setLocation(300,30);
         gerar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -19,10 +22,16 @@ public class MegaSena {
         });
 
         cancelar = new JButton("Cancelar");
+        cancelar.setSize(400,30);
+        cancelar.setFont(new Font("Arial Rounded MT", Font.BOLD, 30));
+        cancelar.setLocation(300,30);
         cancelar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 numerosLabel.setText(""); // Limpa o texto do JLabel
+                numerosLabel.setSize(400,30);
+                numerosLabel.setFont(new Font("Arial Rounded MT", Font.BOLD, 30));
+                numerosLabel.setLocation(300,30);
 
             }
         });
